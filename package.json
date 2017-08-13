@@ -1,0 +1,9 @@
+{
+  "name": "unicode-converter",
+  "version": "1.0.0",
+  "description": "a quick and easy bidirectional CLI-based unicode converter.",
+  "main": "index.js",
+  "repository": "https://github.com/hikurangi/unicode-converter.git",
+  "author": "hikurangi <hikurangi@gmail.com>",
+  "license": "MIT"
+}

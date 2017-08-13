@@ -6,10 +6,12 @@ const unicodeConverter = (direction, arr) => {
   direction = direction.toLowerCase()
   if (direction === 's' || direction === 'string') {
     // copy to clipboard
-    console.log('Your string is:', arr.map(code => String.fromCharCode(code)).join(''))
+    let outputString = arr.map(code => String.fromCharCode(code)).join('')
+    console.log('Your string is: "' + outputString + '"\nIt\'s now on your clipboard!')
   } else if (direction === 'u' || direction === 'unicode') {
     // copy to clipboard
-    console.log('Your unicode values are:', arr.join(' ').split('').map(char => char.charCodeAt(0)).join(' '))
+    let outputUnicode = arr.join(' ').split('').map(char => char.charCodeAt(0)).join(' ')
+    console.log('Your unicode values are:\n' + outputUnicode + '\nThey\'re now on your clipboard!')
   } else {
     console.log("Invalid parameter - please choose 's'/'string' for unicode -> string conversion and 'u'/'unicode' for string -> unicode conversion.")
   }

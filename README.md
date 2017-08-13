@@ -1,9 +1,9 @@
 # unicode-converter
 ### *a super minimal bidirectional CLI unicode converter made with Node.js.*
 
-**1.** Clone and cd: `git clone https://github.com/hikurangi/unicode-converter.git && cd unicode-converter`
+**Step 1.** Clone and cd: `git clone https://github.com/hikurangi/unicode-converter.git && cd unicode-converter`
 
-**2.** Queries are made using a) your package manager of choice (npm or yarn), b) a command line argument specifying the *output* you'd like: `s`, `string`, or `u`, `unicode` depending on whether you want to convert from unicode values to a string or vice versa.
+**Step 2.** Queries are made using a) your package manager of choice (npm or yarn), b) a command line argument specifying the *output* you'd like: `s`, `string` (space-separated unicode input to *string* output) or `u`, `unicode` (string to space-separated *unicode*).
 
   Examples are:
   ```bash
@@ -15,6 +15,6 @@
   ```
   As you can see, quotes and escapes are unnecessary if you're using spaces. We handle that. Anything after the first parameter is
 
-**3.** See the conversion result before your very eyes!
+**Step 3.** See the conversion result before your very eyes!
 
-**4.** _**in progress**_: Your result already is on your clipboard in macOS, Windows or Linux!
+**Step 4.** _**in progress**_: Your result already is on your clipboard in macOS, Windows or Linux!

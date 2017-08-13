@@ -13,7 +13,7 @@
   ```bash
   npm start s 77 121 32 83 116 114 105 110 103 # => Your string is: My String
   ```
-  As you can see, quotes and escapes are unnecessary if you're using spaces. We handle that. Anything after the first parameter is
+  As you can see, quotes and escapes are unnecessary if you're using spaces. Anything after the first parameter is considered a part of your input string.
 
 **Step 3.** See the conversion result before your very eyes!
 

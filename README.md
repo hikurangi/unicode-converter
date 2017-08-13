@@ -3,7 +3,7 @@
 
 **Step 1.** Clone and cd: `git clone https://github.com/hikurangi/unicode-converter.git && cd unicode-converter`
 
-**Step 2.** Queries are made using a) your package manager of choice (npm or yarn), b) a command line argument specifying the *output* you'd like: `s`, `string` (space-separated unicode input to *string* output) or `u`, `unicode` (string to space-separated *unicode*).
+**Step 2.** Queries are made using **a)** your package manager of choice (well.. npm or yarn) and **b)** a command line argument specifying the *output* you'd like: `s`, `string` (space-separated unicode input to *string* output) or `u`, `unicode` (string to space-separated *unicode*).
 
   Examples are:
   ```bash

@@ -3,7 +3,7 @@
 // check os for clipboard?
 
 const unicodeConverter = (direction, arr) => {
-  let direction = direction.toLowerCase()
+  direction = direction.toLowerCase()
   if (direction === 's' || direction === 'string') {
     // copy to clipboard
     console.log('Your string is:', arr.map(code => String.fromCharCode(code)).join(''))

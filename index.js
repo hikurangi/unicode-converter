@@ -6,7 +6,7 @@ const unicodeConverter = (direction, str) => {
   console.log({direction, str});
   if (direction.toLowerCase() === 's') {
     // copy to clipboard
-    console.log('Your string is:', String.fromCharCode(str))
+    console.log('Your string is:', str.split(' ').map(code => String.fromCharCode(code)).join(''))
   } else if (direction.toLowerCase() === 'c') {
     // copy to clipboard
     console.log('Your unicode values are', str.split('').map(char => char.charCodeAt(0)).join(' '))

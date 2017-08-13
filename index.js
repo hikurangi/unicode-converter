@@ -18,4 +18,4 @@ const unicodeConverter = (direction, arr) => {
 
 unicodeConverter(process.argv[2], process.argv.slice(3))
 
-module.exports = unicodeConverter // available externally
+module.exports = unicodeConverter // available externally for testing and profit

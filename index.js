@@ -3,13 +3,13 @@
 // check os for clipboard?
 
 const unicodeConverter = (direction, arr) => {
-  console.log({direction, arr});
-  if (direction.toLowerCase() === 's') {
+  let direction = direction.toLowerCase()
+  if (direction === 's' || direction === 'string') {
     // copy to clipboard
     console.log('Your string is:', arr.map(code => String.fromCharCode(code)).join(''))
-  } else if (direction.toLowerCase() === 'c') {
+  } else if (direction === 'u' || direction === 'unicode') {
     // copy to clipboard
-    console.log('Your unicode values are', arr.join(' ').split('').map(char => char.charCodeAt(0)).join(' '))
+    console.log('Your unicode values are:', arr.join(' ').split('').map(char => char.charCodeAt(0)).join(' '))
   } else {
     console.log("Invalid parameter - please choose 's' for unicode -> string conversion and c for string -> unicode conversion.")
   }

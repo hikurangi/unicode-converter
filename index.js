@@ -11,7 +11,7 @@ const unicodeConverter = (direction, arr) => {
     // copy to clipboard
     console.log('Your unicode values are:', arr.join(' ').split('').map(char => char.charCodeAt(0)).join(' '))
   } else {
-    console.log("Invalid parameter - please choose 's' for unicode -> string conversion and c for string -> unicode conversion.")
+    console.log("Invalid parameter - please choose 's'/'string' for unicode -> string conversion and 'u'/'unicode' for string -> unicode conversion.")
   }
 }
 
